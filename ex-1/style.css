@@ -1,1 +1,65 @@
-/* Start coding here */
+@import url("https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.head-title {
+  background-color: #92aabd;
+  font-family: "Sarabun", sans-serif;
+  height: 100px;
+  padding: 28px 70px;
+}
+
+.head-title > h1 {
+  color: #183b56;
+  font-size: 1, 8rem;
+}
+
+.container {
+  height: 470px;
+  width: 700px;
+  background-color: #e4e9ed;
+  border: 3px solid #183b56;
+  margin: 30px;
+  padding: 20px;
+}
+
+.container > h2 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #183b56;
+}
+
+.grey-frame {
+  margin-top: 20px;
+  width: 80%;
+  height: 50%;
+  background-color: #eeeeee;
+  border: 3px solid #aaaaaa;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.f-line {
+  border: 0.5px solid #aaaaaa;
+  width: 95%;
+  margin: 100px 20px 100px 25px;
+  transform: rotate(19.5deg);
+  position: absolute;
+  left: -20px;
+}
+
+#line2 {
+  transform: rotate(-19.5deg);
+}
+
+.container > p {
+  font-family: "Redacted Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3rem;
+}
