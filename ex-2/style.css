@@ -1,1 +1,26 @@
-/* Start coding here */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.outermost-layer {
+  width: 100%;
+  height: 50vw;
+  padding: 16px;
+  background-color: lightgrey;
+}
+
+.middle-layer {
+  padding: 16px;
+  height: 100%;
+  background-color: black;
+}
+
+.inner-layer {
+  font-size: 72px;
+  height: 100%;
+  padding: 30px;
+  border: 24px solid crimson;
+  background-color: khaki;
+  text-align: center;
+}
