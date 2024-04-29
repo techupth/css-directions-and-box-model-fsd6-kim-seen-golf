@@ -1,1 +1,27 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.Head-page {
+  width: 100%;
+  padding: 50px;
+  background-color: lightblue;
+}
+
+.tourist-attraction {
+  text-align: justify;
+  margin: 50px;
+  padding: 25px 25px;
+  width: 40%;
+  border: 5px solid lightgray;
+  background-color: aliceblue;
+}
+
+.place-name {
+  padding-bottom: 20px;
+}
+
+.description {
+  padding-top: 20px;
+}
