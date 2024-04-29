@@ -1,1 +1,34 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  width: -16px;
+  height: -16px;
+  background-color: lightgrey;
+  padding: 16px;
+}
+
+#border-1 {
+  width: -16px;
+  height: -16px;
+  background-color: black;
+  padding: 16px;
+}
+
+#border-2 {
+  width: -24px;
+  height: -24px;
+  background-color: crimson;
+  padding: 24px;
+}
+
+h1 {
+  width: 90vw;
+  height: 100vh;
+  background-color: khaki;
+  padding: 5px 72px 72px 72px;
+  color: black;
+  text-align: center;
+}
